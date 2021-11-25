@@ -4,7 +4,7 @@
     display: inline-block;
     overflow: hidden;
     padding: 5px;
-    font-weight: 900;
+    font-weight: normal;
     font-family: Arial, sans-serif;
 }
 
@@ -36,20 +36,8 @@
     position: absolute;
     height: 0;
     top: -17px;
-    background-color: transparent transparent #eeeeee transparent;
+    background-color:  #eeeeee;
     z-index: -1;
     right: 69px;
     border: 17px solid; 
-}
-
-.ribbon p::after {
-    content: " ";
-    width: 0;
-    position: absolute;
-    height: 0;
-    top: 74px;
-    border: 17px solid;
-    z-index: -1;
-    background-color: #eeeeee transparent transparent transparent;
-    right: -10px;
 }
